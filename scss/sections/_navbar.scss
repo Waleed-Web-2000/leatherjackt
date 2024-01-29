@@ -1,0 +1,25 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu {
+	@include gradient;
+	li {
+		padding: 0 0.5rem;
+		a {
+			color: $white !important;
+			text-transform: capitalize;
+			font-weight: 600;
+		}	
+	}
+}
+.logo {
+	font-size: 2.5rem;
+	color: $white;
+	animation: logo 10s linear infinite;
+}
+.logoo {
+	font-size: 2rem;
+	color: $white;
+	animation: logoo 0.2s linear infinite;
+}
