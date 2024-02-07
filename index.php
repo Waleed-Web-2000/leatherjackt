@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -96,10 +96,7 @@
             <div class="bg-white p-3">
               <h1 class="fw-bold text-capitalize text-center">
                 Start dropshipping in pakistan
-                <?php 
-                    require 'config/dbc.php';
-                    mysqli_query($connection, "SELECT * FROM wp_wc_category_lookup WHERE ORDER BY id DESC LIMIT 5") or die(mysqli_error($connection));
-                 ?>
+                
               </h1>
             </div>
           </div>
